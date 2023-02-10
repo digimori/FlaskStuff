@@ -1,5 +1,9 @@
 {% extends "base.html" %}
 {% block content %}
+
+{% for country in countries %}
+<p> {{ country }}</p>
+{% endfor %}
     <h2>{{ page_title }}</h2>
     <p>
         Moths are a group of insects that includes all members of the order Lepidoptera that are not butterflies.[1] They were
